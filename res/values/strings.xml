@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">androiddemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_line_layout">LineLayoutActivity</string>
+    <string name="hello">Hello World, TestAbsoluteLayoutActivity!</string>
+    <string name="color_red">red</string>
+    <string name="color_green">green</string>
+    <string name="color_blue">blue</string>
+    <string name="color_white">white</string>
+    <string name="color_black">black</string>
+    <string name="color_yellow">yellow</string>
+    <string name="color_unknown">unknown</string>
+
+    <drawable name="red">#ffffff</drawable>
+
+    <string name="title_activity_pic_read">PicReadActivity</string>
+    <string name="picture">Picture</string>
+    <string name="select_intro">Long-press a thumbnail to add an image</string>
+    <string name="show_intro">Press a thumbnail to display at larger size</string>
+    <string name="title_activity_grid_view">GridViewActivity</string>
+    <string name="title_activity_move">MoveActivity</string>
+    <string name="title_activity_music">MusicActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_tab_layout">TabLayoutActivity</string>
+    <string name="title_activity_view_page">ViewPageActivity</string>
+    <string name="title_activity_slide_tab">SlideTabActivity</string>
+    <string name="title_activity_fragment_onne">FragmentOnne</string>
+
+</resources>

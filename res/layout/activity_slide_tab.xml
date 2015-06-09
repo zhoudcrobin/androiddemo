@@ -1,0 +1,76 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/red"
+	android:orientation="vertical" >
+	<RadioGroup
+		android:id="@+id/rg_select_main"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:orientation="horizontal" >
+		<RadioButton
+			android:id="@+id/rb_current_recommend"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:button="@null"
+			android:background="@drawable/slide_tab"
+			android:gravity="center"
+			android:text="推荐"
+			android:textSize="18dp"
+			android:textColor="@color/black" />
+		<RadioButton
+			android:id="@+id/rb_view"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:button="@null"
+			android:gravity="center"
+			android:background="@drawable/slide_tab"
+			android:text="景点"
+			android:textSize="18dp"
+			android:textColor="@color/black" />
+		<RadioButton
+			android:id="@+id/rb_food"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:button="@null"
+			android:gravity="center"
+			android:background="@drawable/slide_tab"
+			android:text="美食"
+			android:textSize="18dp"
+			android:textColor="@color/black" />
+		<RadioButton
+			android:id="@+id/rb_culture"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:button="@null"
+			android:gravity="center"
+			android:background="@drawable/slide_tab"
+			android:text="文化"
+			android:textSize="18dp"
+			android:textColor="@color/black" />
+		<RadioButton
+			android:id="@+id/rb_entertainment"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:button="@null"
+			android:gravity="center"
+			android:background="@drawable/slide_tab"
+			android:text="娱乐"
+			android:textSize="18dp"
+			android:textColor="@color/black" />
+	</RadioGroup>
+	<android.support.v4.view.ViewPager
+		android:id="@+id/vp_pager"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/qian_bai"
+		android:padding="2dp" />
+</LinearLayout>

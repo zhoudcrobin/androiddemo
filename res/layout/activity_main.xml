@@ -1,0 +1,85 @@
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout    
+        android:id="@+id/groups" 
+        android:orientation="vertical"    
+        android:layout_width="fill_parent"    
+        android:layout_height="wrap_content"    
+        android:layout_weight="2">    
+  			<TextView 
+		  	    android:id="@+id/textview1"
+		  	    android:layout_height="wrap_content" 
+		      	android:layout_width="match_parent" 
+		      	android:padding="10sp" />  
+      	
+          	<Button
+	            android:id="@+id/button4"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:onClick="openGridView"
+	            android:text="gridview layout" />    
+	               
+        	<ImageButton
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="#ffffff"
+				android:layout_margin="10sp"
+				android:onClick="openDialog"
+	            android:src="@drawable/ic_launcher" />   
+    </LinearLayout> 
+        
+    <LinearLayout    
+        android:orientation="horizontal"    
+        android:layout_width="fill_parent"    
+        android:layout_height="wrap_content"    
+        android:baselineAligned="false"  
+        android:layout_weight="1"  >  
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="linearLayoutExample"
+            android:layout_weight="1"
+            android:text="linear layout" />
+
+         <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="closeThisActivity"
+            android:layout_weight="1"
+            android:text="退出程序" />
+       
+     	<Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="picRead"
+            android:text="图片浏览" />
+         <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tabLayoutExample"
+            android:layout_weight="1"
+            android:text="tab layout" /> 
+         <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="viewPageExample"
+            android:layout_weight="1"
+            android:text="view page" />   
+         <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="slideTabExample"
+            android:layout_weight="1"
+            android:text="slide tab" />                              	
+	</LinearLayout>  
+</LinearLayout >
